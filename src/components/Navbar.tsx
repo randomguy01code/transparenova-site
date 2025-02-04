@@ -21,10 +21,10 @@ const Navbar = () => {
               <li key={item}>
                 <Link
                   to="/"
-                  className="text-white text-lg relative group px-1 py-2 transition-colors duration-300 hover:text-space-purple"
+                  className="text-white text-xl relative group px-1 py-2 transition-colors duration-300 hover:text-space-purple"
                 >
                   {item}
-                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-space-purple transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100 origin-left" />
+                  <span className="absolute bottom-0 right-0 w-full h-0.5 bg-space-purple transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100 origin-right" />
                 </Link>
               </li>
             ))}

@@ -39,10 +39,10 @@ const Hero = () => {
         <div className={`text-center transition-all duration-1000 ${
           mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}>
-          <h1 className="text-8xl font-bold tracking-wider bg-gradient-to-r from-space-purple via-space-blue to-space-purple bg-clip-text text-transparent pb-4 px-8">
+          <h1 className="text-9xl font-bold tracking-[0.2em] bg-gradient-to-br from-space-purple via-space-blue to-space-purple bg-clip-text text-transparent pb-4 px-8 drop-shadow-[0_0_25px_rgba(155,135,245,0.3)] hover:scale-105 transition-transform duration-300">
             CHRYSALIS
           </h1>
-          <div className="text-6xl font-light tracking-[0.3em] text-white/90">2025</div>
+          <div className="text-7xl font-light tracking-[0.5em] bg-gradient-to-r from-white/90 via-space-blue/90 to-white/90 bg-clip-text text-transparent mt-4 drop-shadow-[0_0_15px_rgba(97,218,251,0.3)]">2025</div>
         </div>
       </div>
 
