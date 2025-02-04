@@ -8,7 +8,11 @@ const Navbar = () => {
     <nav className="fixed w-full bg-transparent backdrop-blur-sm bg-opacity-10 z-50 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/logo.png" alt="Logo" className="h-8" />
+          <img 
+            src="/lovable-uploads/48d1a5cd-e2bc-4e45-a2e3-1fc7fa847ce9.png" 
+            alt="Chrysalis Logo" 
+            className="h-12 w-auto" 
+          />
         </div>
         
         <div className="flex items-center space-x-12">
