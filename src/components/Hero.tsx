@@ -36,13 +36,14 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-white">
-        <img
-          src="/lovable-uploads/54c01219-d881-4941-9535-4955e00322e8.png"
-          alt="Chrysalis 2025"
-          className={`w-[600px] transition-all duration-1000 ${
-            mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-          }`}
-        />
+        <div className={`text-center transition-all duration-1000 ${
+          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        }`}>
+          <h1 className="text-8xl font-bold tracking-wider bg-gradient-to-r from-space-purple via-space-blue to-space-purple bg-clip-text text-transparent pb-4 px-8">
+            CHRYSALIS
+          </h1>
+          <div className="text-6xl font-light tracking-[0.3em] text-white/90">2025</div>
+        </div>
       </div>
 
       {/* Astronaut */}
