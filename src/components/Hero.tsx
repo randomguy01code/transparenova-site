@@ -24,21 +24,25 @@ const Hero = () => {
         ))}
       </div>
 
+      {/* Background Image */}
+      <img
+        src="/lovable-uploads/ca6df372-ffc4-4377-abb8-728cfedbf0b5.png"
+        alt="Space Background"
+        className="absolute inset-0 w-full h-full object-cover opacity-50"
+      />
+
       {/* Glowing orb */}
       <div className="absolute top-1/4 left-1/3 w-32 h-32 rounded-full bg-space-blue blur-2xl opacity-20" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-white">
-        <h1 className={`text-7xl font-bold mb-4 transition-all duration-1000 ${
-          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-        }`}>
-          WELCOME
-        </h1>
-        <h2 className={`text-4xl font-light transition-all duration-1000 delay-300 ${
-          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-        }`}>
-          Chrysalis 2025
-        </h2>
+        <img
+          src="/lovable-uploads/54c01219-d881-4941-9535-4955e00322e8.png"
+          alt="Chrysalis 2025"
+          className={`w-[600px] transition-all duration-1000 ${
+            mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
+        />
       </div>
 
       {/* Astronaut */}

@@ -15,16 +15,16 @@ const Navbar = () => {
           />
         </div>
         
-        <div className="flex items-center space-x-12">
-          <ul className="flex space-x-8">
+        <div className="flex items-center space-x-16">
+          <ul className="flex space-x-12">
             {menuItems.map((item) => (
               <li key={item}>
                 <Link
                   to="/"
-                  className="text-white relative group px-1"
+                  className="text-white text-lg relative group px-1 py-2 transition-colors duration-300 hover:text-space-purple"
                 >
                   {item}
-                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-space-purple transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-space-purple transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100 origin-left" />
                 </Link>
               </li>
             ))}
@@ -37,7 +37,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-space-purple transition-colors duration-300"
             >
-              <Instagram size={24} />
+              <Instagram size={28} />
             </a>
           </div>
         </div>
