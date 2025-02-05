@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Butterfly } from "lucide-react";
+import { Bird } from "lucide-react";
 
 const Hero = () => {
   const [mounted, setMounted] = useState(false);
@@ -51,7 +51,7 @@ const Hero = () => {
         className="absolute inset-0 w-full h-full object-cover opacity-50 contrast-125 saturate-150"
       />
 
-      {/* Flying Butterfly */}
+      {/* Flying Bird (replacing Butterfly) */}
       <div className="absolute w-full h-full">
         <div 
           className="absolute animate-butterfly"
@@ -59,7 +59,7 @@ const Hero = () => {
             animation: "butterfly 15s infinite linear",
           }}
         >
-          <Butterfly 
+          <Bird 
             size={48} 
             className="text-space-purple animate-pulse"
             style={{
