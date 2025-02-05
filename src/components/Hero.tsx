@@ -79,14 +79,14 @@ const Hero = () => {
       <div className="absolute bottom-1/3 right-1/4 w-24 h-24 rounded-full bg-space-purple blur-2xl opacity-15 animate-pulse" />
 
       {/* Content with enhanced typography */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-white">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-white px-4">
         <div className={`text-center transition-all duration-1000 ${
           mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}>
-          <h1 className="text-[14rem] font-black tracking-[0.3em] bg-gradient-to-br from-space-purple via-white to-space-blue bg-clip-text text-transparent pb-4 px-8 drop-shadow-[0_0_60px_rgba(155,135,245,0.6)] hover:scale-105 transition-transform duration-300">
+          <h1 className="text-[10rem] md:text-[12rem] font-black tracking-[0.2em] bg-gradient-to-br from-space-purple via-white to-space-blue bg-clip-text text-transparent pb-4 px-4 drop-shadow-[0_0_60px_rgba(155,135,245,0.6)] hover:scale-105 transition-transform duration-300">
             CHRYSALIS
           </h1>
-          <div className="text-9xl font-thin tracking-[1em] bg-gradient-to-r from-white via-space-blue to-white bg-clip-text text-transparent mt-4 drop-shadow-[0_0_45px_rgba(97,218,251,0.6)]">2025</div>
+          <div className="text-7xl md:text-9xl font-thin tracking-[0.8em] bg-gradient-to-r from-white via-space-blue to-white bg-clip-text text-transparent mt-4 drop-shadow-[0_0_45px_rgba(97,218,251,0.6)]">2025</div>
         </div>
       </div>
 
